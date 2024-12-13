@@ -1,0 +1,52 @@
+@media screen and (max-width: 970px) {
+  .cards{
+    flex-wrap: wrap;
+}
+.card{
+    width: calc((100% - 60px) / 3);
+    margin-bottom: 40px;
+}
+}
+.who_img{
+width: calc(100% - 354px);
+}
+nav{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .who_in{
+        display: block;
+    }
+    .who_img{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .who_info{
+        width: 100%;
+    }
+    .desc{
+        margin-bottom: 35px;
+    }
+    .rev{
+        width: calc(50% - 15px);
+    }
+    .foot_tit{
+        font-size: 16px;
+    }
+    .tit{
+        font-size: 28px;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    header{
+        min-width: 375px;
+        position: absolute;
+    }
+    head{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
