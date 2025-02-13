@@ -138,6 +138,7 @@ body{
 }
 .regup{
 	width: 110px;
+	transition: 0.5s;
 }
 .reg:hover{
 	background-color: #02897A;
@@ -194,6 +195,7 @@ body{
 	font-weight: bold;
 	font-size: 16px;
 	color: #02897A;
+	transition: 0.5s;
 }
 .work_btn:hover{
 	background: 1px #02897A;
@@ -211,6 +213,8 @@ body{
 	color: #02897A;
 	display: flex;
 	align-items: center;
+	transition: 0.5s;
+
 }
 .yout:hover{
 	border-bottom: 1px solid #02897A ;
@@ -433,6 +437,8 @@ body{
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 40px;
+	transition: 0.5s;
+
 }
 .post:hover{
 	color: #02897A;
@@ -456,6 +462,8 @@ body{
 	background: #EFEFEF;
 	border: #fff solid 1px;
 	border-radius: 50%;
+	transition: 0.5s;
+
 }
 .ball:hover{
 	background: #02897A;
@@ -472,6 +480,8 @@ body{
 	flex-direction: column;
 	align-items: center;
 	padding: 24px 0 32px;
+	transition: 1s;
+
 }
 
 .fr{
@@ -496,6 +506,7 @@ body{
 	line-height: 100px;
 	color: #02897A;
 	margin-right: 8px;
+
 }
 .funt{
 	font-weight: bold;

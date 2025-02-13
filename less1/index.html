@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="filters">
+			<input type="number" id="minPrice" placeholder="Мин. цена" />
+			<input type="number" id="maxPrice" placeholder="Макс. цена" />
+			<div class="filters">
+				<div class="accordion" id="brandsAccordion">
+					<button class="accordion-button">Выберите марку</button>
+					<div class="accordion-content"></div>
+				</div>
+
+				<div class="accordion" id="modelsAccordion">
+					<button class="accordion-button" disabled>
+						Выберите марку сначала
+					</button>
+					<div class="accordion-content"></div>
+				</div>
+			</div>
+
+			<input type="number" id="yearFilter" placeholder="Год" />
+			<button onclick="applyFilters()">Применить</button>
+		</div>
+	</body>
+</html>
