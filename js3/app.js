@@ -44,3 +44,11 @@ let newArrayForFilter = arrForFilter.filter(function (el) {
 	return el % 2 == 0 && el > 0
 })
 console.log(newArrayForFilter)
+
+setInterval(() => {
+	console.log('kolya')
+}, 8000)
+
+setTimeout(() => {
+	console.log('islam')
+}, 7000)

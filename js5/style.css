@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.todo-container {
+	max-width: 400px;
+	margin: 20px auto;
+}
+.todo-card {
+	padding: 10px;
+	background: #f8f9fa;
+	border-radius: 8px;
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.todo-card button {
+	background: red;
+	color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+}

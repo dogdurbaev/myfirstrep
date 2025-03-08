@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap");
+.cardDeteils {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  gap: 200px;
+}
+.cardDeteils section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 8%;
+}
+.cardDeteils section .cardFront {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 250px;
+  background-image: url("../images/bg-card-front.png");
+  background-repeat: no-repeat;
+}
+.cardDeteils section .cardFront .circles {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
+  gap: 15px;
+}
+.cardDeteils section .cardFront .circles .circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+}
+.cardDeteils section .cardFront .circles .circleLow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.cardDeteils section .cardFront .cardData {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20px;
+  gap: 25px;
+}
+.cardDeteils section .cardFront .cardData p {
+  text-align: left;
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+.cardDeteils section .cardFront .cardData p:hover {
+  cursor: default;
+}
+.cardDeteils section .cardFront .cardData .cardName {
+  display: flex;
+  justify-content: space-between;
+}
+.cardDeteils section .cardFront .cardData .cardName h6 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+.cardDeteils section .cardFront .cardData .cardName h6:hover {
+  cursor: default;
+}
+.cardDeteils section .cardBack {
+  width: 450px;
+  height: 250px;
+  background-image: url("../images/bg-card-back.png");
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+.cardDeteils section .cardBack p {
+  color: white;
+  text-align: right;
+  margin: 110px 60px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+}
+.cardDeteils section .cardBack p:hover {
+  cursor: default;
+}
+.cardDeteils .newCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 150px;
+}
+.cardDeteils .newCard .circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #696afc 0%, #67248d 100%);
+  color: white !important;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardDeteils .newCard .circle svg {
+  color: white;
+}
+.cardDeteils .newCard h2 {
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.cardDeteils .newCard p {
+  color: gray;
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.cardDeteils .newCard button {
+  width: 140%;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #1a0034;
+  color: white;
+}
+.cardDeteils .newCard button:hover {
+  cursor: pointer;
+}
+.cardDeteils .cardNewData {
+  width: 550px;
+}
+.cardDeteils .cardNewData label {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+}
+.cardDeteils .cardNewData label:hover {
+  cursor: default;
+}
+.cardDeteils .cardNewData .errorMessage {
+  height: 15px;
+  display: flex;
+  white-space: nowrap;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.cardDeteils .cardNewData .errorMessage2 {
+  position: relative;
+  height: 15px;
+  width: 12px;
+  left: -255px;
+  top: 65px;
+  display: flex;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.cardDeteils .cardNewData .cvcText {
+  margin-left: 95px;
+}
+.cardDeteils .cardNewData input {
+  width: 532px;
+  color: rgb(182, 182, 182);
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.cardDeteils .cardNewData input::-moz-placeholder {
+  color: rgb(182, 182, 182);
+}
+.cardDeteils .cardNewData input::placeholder {
+  color: rgb(182, 182, 182);
+}
+.cardDeteils .cardNewData .smallInput {
+  width: 100px;
+  margin-right: 10px;
+}
+.cardDeteils .cardNewData .mediumInput {
+  width: 315px;
+  margin-left: 10px;
+}
+.cardDeteils .cardNewData .cvc {
+  width: 50%;
+}
+.cardDeteils .cardNewData div {
+  display: flex;
+}
+.cardDeteils .cardNewData button {
+  width: 100%;
+  height: 65px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #1a0034;
+  color: white;
+}
+.cardDeteils .cardNewData button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=app.css.map */
